@@ -1,271 +1,238 @@
 <!doctype html>
 <html lang="en">
-  <head>
-    <meta charset="UTF-8" />
-    <meta name="viewport" content="width=device-width, initial-scale=1" />
-    <meta name="theme-color" content="#11100d" />
-    <meta
-      name="description"
-      content="Christopher Johnson builds infrastructure, automation, and tools that make operations quieter."
-    />
-    <meta property="og:title" content="Christopher Johnson — Systems Operator" />
-    <meta
-      property="og:description"
-      content="I make unruly systems behave. Linux, SRE, automation, and AI-driven operations."
-    />
-    <meta property="og:type" content="website" />
-    <title>Christopher Johnson / Systems Operator</title>
-    <link rel="preconnect" href="https://fonts.googleapis.com" />
-    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin />
-    <link
-      href="https://fonts.googleapis.com/css2?family=DM+Mono:wght@300;400;500&family=Instrument+Serif:ital@0;1&family=Inter:wght@400;500;600&display=swap"
-      rel="stylesheet"
-    />
-    <link rel="stylesheet" href="styles.css" />
-    <script src="script.js" defer></script>
-  </head>
-  <body>
-    <a class="skip-link" href="#main">Skip to main content</a>
+<head>
+  <meta charset="utf-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1">
+  <meta name="theme-color" content="#f7f7f4">
+  <title>Christopher Johnson · Linux Support Team Lead</title>
+  <meta name="description" content="Christopher Johnson leads a Linux support engineering team at JetRails and builds small, sharp tools that cut alert noise, speed up triage, and make production boring.">
+  <link rel="canonical" href="https://chrisjohnson89.github.io/">
+  <link rel="icon" href="data:image/svg+xml,%3Csvg xmlns='http://www.w3.org/2000/svg' viewBox='0 0 64 64'%3E%3Crect width='64' height='64' fill='%231f3fd8'/%3E%3Ctext x='32' y='43' font-family='-apple-system,Segoe UI,sans-serif' font-size='30' font-weight='700' fill='%23f7f7f4' text-anchor='middle'%3ECJ%3C/text%3E%3C/svg%3E">
+  <meta property="og:title" content="Christopher Johnson · Linux Support Team Lead">
+  <meta property="og:description" content="A decade of Linux, reliability engineering, and support leadership. Small, sharp tools that make production boring.">
+  <meta property="og:type" content="website">
+  <meta property="og:url" content="https://chrisjohnson89.github.io/">
+  <meta property="og:image" content="https://chrisjohnson89.github.io/og-image.png">
+  <meta name="twitter:card" content="summary_large_image">
+  <link rel="stylesheet" href="styles.css">
+  <script type="application/ld+json">
+  {
+    "@context": "https://schema.org",
+    "@type": "Person",
+    "name": "Christopher Johnson",
+    "jobTitle": "Linux Support Team Lead",
+    "worksFor": { "@type": "Organization", "name": "JetRails" },
+    "url": "https://chrisjohnson89.github.io/",
+    "email": "mailto:cjengineer89@gmail.com",
+    "sameAs": [
+      "https://github.com/ChrisJohnson89",
+      "https://www.linkedin.com/in/chrisjohnsonlink/",
+      "https://x.com/sweetunit"
+    ]
+  }
+  </script>
+</head>
+<body>
+<header class="site">
+  <div class="wrap">
+    <a class="wordmark" href="#">Christopher Johnson</a>
+    <nav class="primary" aria-label="Primary">
+      <a href="#work">Work</a>
+      <a href="#experience">Experience</a>
+      <a href="#about">About</a>
+      <a href="#contact">Contact</a>
+    </nav>
+  </div>
+</header>
 
-    <div class="noise" aria-hidden="true"></div>
+<main>
+  <div class="wrap">
+    <section class="hero">
+      <p class="label">Linux Support Team Lead · JetRails</p>
+      <h1>I make production <span class="accent">boring.</span></h1>
+      <p class="intro">
+        A decade of Linux, reliability engineering, and support leadership for
+        high-traffic ecommerce infrastructure. I build small, sharp tools that
+        cut alert noise, speed up triage, and let operators sleep.
+      </p>
+      <div class="hero-meta">
+        <a href="https://github.com/ChrisJohnson89">GitHub</a>
+        <a href="https://www.linkedin.com/in/chrisjohnsonlink/">LinkedIn</a>
+        <a href="https://x.com/sweetunit">X</a>
+        <a href="mailto:cjengineer89@gmail.com">Email</a>
+      </div>
+    </section>
 
-    <header class="site-header">
-      <a class="wordmark" href="#top" aria-label="Christopher Johnson, home">
-        <span class="status-dot" aria-hidden="true"></span>
-        <span>CJ/OPS</span>
-      </a>
+    <section id="work">
+      <div class="section-head"><span class="label">01</span><h2>Selected work</h2></div>
 
-      <nav aria-label="Primary navigation">
-        <a href="#work">Work</a>
-        <a href="#history">History</a>
-        <a href="#notes">Notes</a>
-      </nav>
-
-      <button class="command-trigger" type="button" aria-haspopup="dialog">
-        <span>Navigate</span>
-        <kbd>/</kbd>
-      </button>
-    </header>
-
-    <main id="main">
-      <section class="hero" id="top">
-        <div class="hero-index mono" aria-hidden="true">/PROC/CHRIS</div>
-
-        <div class="hero-copy">
-          <p class="eyebrow"><span>Human process</span> PID 0089</p>
-          <h1>I make unruly<br />systems <em>behave.</em></h1>
-          <p class="lede">
-            Christopher Johnson is a Linux support lead, reliability engineer,
-            and compulsive tool builder. He makes infrastructure calmer and the
-            people operating it slightly less haunted.
-          </p>
-          <div class="hero-links">
-            <a class="button primary" href="#work">Inspect my work <span>↓</span></a>
-            <a class="text-link" href="https://github.com/ChrisJohnson89">GitHub ↗</a>
-            <a class="text-link" href="https://www.linkedin.com/in/chrisjohnsonlink/">LinkedIn ↗</a>
-            <a class="text-link" href="https://x.com/sweetunit" rel="me">X / @sweetunit ↗</a>
-          </div>
-        </div>
-
-        <aside class="system-card" aria-label="Current operator status">
-          <div class="panel-title">
-            <span>operator.status</span>
-            <span class="blink">● LIVE</span>
-          </div>
-          <dl>
-            <div><dt>NAME</dt><dd>Christopher Johnson</dd></div>
-            <div><dt>ROLE</dt><dd>Linux Support Team Lead</dd></div>
-            <div><dt>FOCUS</dt><dd>Quiet operations</dd></div>
-            <div><dt>STACK</dt><dd>Rust · Python · Shell</dd></div>
-            <div><dt>LOCAL</dt><dd id="local-time">--:--:--</dd></div>
-            <div><dt>STATE</dt><dd><span class="tiny-dot"></span> Operational-ish</dd></div>
-          </dl>
-          <div class="load-graph" aria-label="Decorative system activity graph">
-            <i style="--h: 44%"></i><i style="--h: 62%"></i><i style="--h: 38%"></i>
-            <i style="--h: 78%"></i><i style="--h: 52%"></i><i style="--h: 90%"></i>
-            <i style="--h: 70%"></i><i style="--h: 42%"></i><i style="--h: 66%"></i>
-            <i style="--h: 32%"></i><i style="--h: 58%"></i><i style="--h: 82%"></i>
-          </div>
-          <p class="panel-note mono">No incidents caused by this website today.</p>
-        </aside>
-      </section>
-
-      <div class="ticker" aria-hidden="true">
+      <article class="flagship">
         <div>
-          <span>LINUX</span><b>◆</b><span>OBSERVABILITY</span><b>◆</b><span>AUTOMATION</span><b>◆</b>
-          <span>RELIABILITY</span><b>◆</b><span>AI OPERATIONS</span><b>◆</b><span>TERMINAL FISH</span><b>◆</b>
-          <span>LINUX</span><b>◆</b><span>OBSERVABILITY</span><b>◆</b><span>AUTOMATION</span><b>◆</b>
-          <span>RELIABILITY</span><b>◆</b><span>AI OPERATIONS</span><b>◆</b><span>TERMINAL FISH</span><b>◆</b>
+          <p class="label flagship-label">Flagship</p>
+          <h3>ComfyUI-NeuralBooru</h3>
+          <p class="tagline">Plain English in, validated Danbooru tags out.</p>
+          <p class="body">
+            A ComfyUI node that turns scene descriptions into image-generation
+            prompts using any local LLM. The model proposes tags; a 140,000-tag
+            Danbooru whitelist validates them, so only vocabulary the image model
+            was actually trained on survives. Zero runtime dependencies, by design.
+          </p>
+          <div class="facts">
+            <span>PYTHON · STDLIB ONLY</span>
+            <span>27 STARS</span>
+            <span>COMFYUI REGISTRY</span>
+            <span>CI TESTED</span>
+          </div>
+          <a class="flagship-link" href="https://github.com/ChrisJohnson89/ComfyUI-NeuralBooru">View on GitHub →</a>
         </div>
+        <div class="diagram" aria-label="Diagram: an English description flows through a local LLM, then a validator, producing a clean prompt">
+          <svg viewBox="0 0 300 240" xmlns="http://www.w3.org/2000/svg" role="img">
+            <g font-family="ui-monospace, Menlo, monospace" font-size="10.5">
+              <rect x="20" y="14" width="260" height="34" fill="none" stroke="#17171a" stroke-width="1.2"/>
+              <text x="34" y="35" fill="#17171a">"a vampire girl, night classroom"</text>
+              <path d="M150 48 v18" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <path d="M146 62 l4 6 l4 -6" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <rect x="60" y="70" width="180" height="34" fill="none" stroke="#17171a" stroke-width="1.2"/>
+              <text x="86" y="91" fill="#17171a">any local LLM</text>
+              <path d="M150 104 v18" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <path d="M146 118 l4 6 l4 -6" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <rect x="40" y="126" width="220" height="34" fill="none" stroke="#1f3fd8" stroke-width="1.5"/>
+              <text x="66" y="147" fill="#1f3fd8">validator · 140k real tags</text>
+              <path d="M150 160 v18" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <path d="M146 174 l4 6 l4 -6" stroke="#1f3fd8" stroke-width="1.2" fill="none"/>
+              <rect x="20" y="182" width="260" height="34" fill="#17171a"/>
+              <text x="34" y="203" fill="#f7f7f4">1girl, vampire, fangs, smirk ...</text>
+            </g>
+          </svg>
+        </div>
+      </article>
+
+      <div class="rows">
+        <article class="row">
+          <a class="cover" href="https://github.com/ChrisJohnson89/Ferromon" aria-label="Ferromon on GitHub"></a>
+          <span class="lang">Rust</span>
+          <div>
+            <h3>Ferromon</h3>
+            <p>Fast TUI system monitor: CPU, memory, disk, processes, services, and logs without leaving the terminal. Static builds, curl-pipe install, self-updates in place.</p>
+          </div>
+          <span class="goto">→</span>
+        </article>
+        <article class="row">
+          <a class="cover" href="https://github.com/ChrisJohnson89/Ferrolog" aria-label="Ferrolog on GitHub"></a>
+          <span class="lang">Rust</span>
+          <div>
+            <h3>Ferrolog</h3>
+            <p>Lightweight TUI log viewer with live search and severity filtering, TRACE through FATAL. No ambition to become Splunk.</p>
+          </div>
+          <span class="goto">→</span>
+        </article>
+        <article class="row">
+          <a class="cover" href="https://github.com/ChrisJohnson89/cmkview" aria-label="cmkview on GitHub"></a>
+          <span class="lang">Python · macOS</span>
+          <div>
+            <h3>cmkview</h3>
+            <p>Native macOS incident dashboard for CheckMK. Problems grouped by category, severity filters, a menu bar count, credentials in the Keychain.</p>
+          </div>
+          <span class="goto">→</span>
+        </article>
+        <article class="row">
+          <a class="cover" href="https://github.com/ChrisJohnson89/ClawSentry" aria-label="ClawSentry on GitHub"></a>
+          <span class="lang">Python</span>
+          <div>
+            <h3>ClawSentry</h3>
+            <p>Local-first security and ops dashboard for OpenClaw with a live SSE timeline. The activity feed shows metadata only, never message contents.</p>
+          </div>
+          <span class="goto">→</span>
+        </article>
       </div>
 
-      <section class="section work" id="work">
-        <header class="section-heading">
-          <p class="eyebrow">01 / Running processes</p>
-          <h2>Things I’ve<br /><em>put into the world.</em></h2>
-          <p>Useful tools, mostly. One deeply unnecessary aquarium.</p>
-        </header>
+      <p class="footnote">
+        Also: <a href="https://github.com/ChrisJohnson89/terminal-aquarium-office-drama">a terminal aquarium where ASCII fish generate workplace drama</a>. Deeply unnecessary. Zero regrets.
+      </p>
+    </section>
 
-        <div class="process-list">
-          <article class="process featured">
-            <a href="https://github.com/ChrisJohnson89/Ferromon" aria-label="View Ferromon on GitHub"></a>
-            <div class="process-id mono">PID 042</div>
-            <div class="process-main">
-              <p class="process-meta"><span>RUST</span><span>STABLE</span><span>4 ★</span></p>
-              <h3>Ferromon</h3>
-              <p>A fast TUI system monitor for seeing what your machine is doing without leaving the terminal.</p>
-            </div>
-            <div class="terminal-preview" aria-hidden="true">
-              <div class="terminal-bar"><i></i><i></i><i></i><span>ferro</span></div>
-              <pre>╭ SYSTEM ─────────────────╮
-│ CPU  <b>██████░░░░</b>  61%     │
-│ MEM  <b>████░░░░░░</b>  42%     │
-│ LOAD 1.22  0.87  0.64   │
-╰─────────────────────────╯</pre>
-            </div>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </article>
+    <section id="experience">
+      <div class="section-head"><span class="label">02</span><h2>Experience</h2></div>
+      <ul class="xp">
+        <li>
+          <time>2023.11 to now</time>
+          <div><strong>Linux Support Team Lead</strong> <span class="org">· JetRails</span>
+            <p>Leads the support engineering team for high-traffic ecommerce infrastructure: people, incidents, and the automation that keeps both calm.</p></div>
+        </li>
+        <li>
+          <time>2021.04 to 2023.11</time>
+          <div><strong>Linux Support Analyst</strong> <span class="org">· JetRails</span>
+            <p>Production support for high-traffic ecommerce systems.</p></div>
+        </li>
+        <li>
+          <time>2020.12 to 2021.04</time>
+          <div><strong>Cloud Infrastructure Engineer</strong> <span class="org">· 2nd Watch</span>
+            <p>Contract infrastructure work in large-scale cloud environments.</p></div>
+        </li>
+        <li>
+          <time>2019.01 to 2020.12</time>
+          <div><strong>Site Reliability Engineer</strong> <span class="org">· MageMojo</span>
+            <p>AWS, containers, automation, and the steady pursuit of boring uptime.</p></div>
+        </li>
+        <li>
+          <time>2017.03 to 2019.01</time>
+          <div><strong>Migration Engineer</strong> <span class="org">· GoDaddy</span>
+            <p>Large-scale migrations: moving important things between computers without setting them on fire.</p></div>
+        </li>
+        <li>
+          <time>2016.04 to now</time>
+          <div><strong>Founder</strong> <span class="org">· MildVision Solutions</span>
+            <p>Independent infrastructure and technical work.</p></div>
+        </li>
+      </ul>
+    </section>
 
-          <article class="process">
-            <a href="https://github.com/ChrisJohnson89/cmkview" aria-label="View cmkview on GitHub"></a>
-            <div class="process-id mono">PID 117</div>
-            <div class="process-main">
-              <p class="process-meta"><span>PYTHON</span><span>MACOS</span></p>
-              <h3>cmkview</h3>
-              <p>A native CheckMK incident dashboard that turns monitoring noise into something a human can scan.</p>
-            </div>
-            <span class="project-state warning">3 WARN</span>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </article>
-
-          <article class="process">
-            <a href="https://github.com/ChrisJohnson89/Ferrolog" aria-label="View Ferrolog on GitHub"></a>
-            <div class="process-id mono">PID 238</div>
-            <div class="process-main">
-              <p class="process-meta"><span>RUST</span><span>TUI</span></p>
-              <h3>Ferrolog</h3>
-              <p>A lightweight log viewer with search, severity filtering, and absolutely no desire to become Splunk.</p>
-            </div>
-            <span class="project-state healthy">● HEALTHY</span>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </article>
-
-          <article class="process aquarium-process">
-            <a href="https://github.com/ChrisJohnson89/terminal-aquarium-office-drama" aria-label="View Terminal Aquarium on GitHub"></a>
-            <div class="process-id mono">PID ???</div>
-            <div class="process-main">
-              <p class="process-meta"><span>PYTHON</span><span>UNNECESSARY</span></p>
-              <h3>Terminal Aquarium</h3>
-              <p>ASCII fish swim around and generate workplace drama. No roadmap. No enterprise tier. Art is alive.</p>
-            </div>
-            <div class="mini-fish" aria-hidden="true">&gt;&lt;(((°&gt;</div>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </article>
-
-          <article class="process">
-            <a href="https://github.com/ChrisJohnson89/ClawSentry" aria-label="View ClawSentry on GitHub"></a>
-            <div class="process-id mono">PID 404</div>
-            <div class="process-main">
-              <p class="process-meta"><span>PYTHON</span><span>LOCAL-FIRST</span></p>
-              <h3>ClawSentry</h3>
-              <p>A privacy-first security and operations posture dashboard for OpenClaw with live event updates.</p>
-            </div>
-            <span class="project-state healthy">● WATCHING</span>
-            <span class="arrow" aria-hidden="true">↗</span>
-          </article>
+    <section id="about">
+      <div class="section-head"><span class="label">03</span><h2>About</h2></div>
+      <div class="about-grid">
+        <div class="bio">
+          <p>
+            I have spent ten years operating Linux infrastructure that other
+            people depend on: ecommerce platforms on Black Friday, migrations
+            that could not lose a byte, on-call rotations that needed fewer
+            pages, not more dashboards.
+          </p>
+          <p>
+            These days I lead a support engineering team and build the tooling
+            I always wished existed: monitors, log viewers, and AI-assisted
+            automation that does the boring parts correctly. I write my tools
+            in Rust and Python, and yes, I use Vim.
+          </p>
         </div>
-      </section>
-
-      <section class="section history" id="history">
-        <header class="section-heading inverted">
-          <p class="eyebrow">02 / Event history</p>
-          <h2>Previously,<br /><em>in production.</em></h2>
-        </header>
-
-        <div class="log-window">
-          <div class="log-head mono"><span>career.log</span><span>TAIL -F</span></div>
-          <ol class="career-log">
-            <li>
-              <time>2023.11—NOW</time><span class="log-code">INFO</span>
-              <div><strong>Linux Support Team Lead</strong><p>JetRails · keeping people, infrastructure, and incidents moving in roughly the same direction.</p></div>
-            </li>
-            <li>
-              <time>2021.04—2023.11</time><span class="log-code">EXEC</span>
-              <div><strong>Linux Support Analyst</strong><p>JetRails · production support for high-traffic ecommerce systems.</p></div>
-            </li>
-            <li>
-              <time>2020.12—2021.04</time><span class="log-code">CLOUD</span>
-              <div><strong>Cloud Infrastructure Engineer</strong><p>2nd Watch · contract infrastructure work in large-scale cloud environments.</p></div>
-            </li>
-            <li>
-              <time>2019.01—2020.12</time><span class="log-code">SRE</span>
-              <div><strong>Site Reliability Engineer</strong><p>MageMojo · AWS, containers, automation, and the pursuit of boring uptime.</p></div>
-            </li>
-            <li>
-              <time>2017.03—2019.01</time><span class="log-code">MOVE</span>
-              <div><strong>Migration Engineer</strong><p>GoDaddy · moving large, important things between computers without setting them on fire.</p></div>
-            </li>
-            <li>
-              <time>2016.04—NOW</time><span class="log-code">FORK</span>
-              <div><strong>Founder</strong><p>MildVision Solutions · independent infrastructure and technical work.</p></div>
-            </li>
-          </ol>
+        <div>
+          <p class="label creds-label">Credentials</p>
+          <ul class="creds">
+            <li><span>Red Hat Certified System Administrator</span><time>2015</time></li>
+            <li><span>AWS Solutions Architect Associate</span><time>2018</time></li>
+            <li><span>cPanel &amp; WHM Administrator + Professional</span><time>2021</time></li>
+            <li><span>CompTIA Linux+ · Network+ · A+</span><time>2013+</time></li>
+            <li><span>Hugging Face, Fundamentals of Agents</span><time>2025</time></li>
+            <li><span>Tech mentor, Prans Hanyu Foundation</span><time>2020 to 2022</time></li>
+          </ul>
         </div>
-      </section>
-
-      <section class="section notes" id="notes">
-        <div class="notes-intro">
-          <p class="eyebrow">03 / Field notes</p>
-          <h2>Working notes from<br />inside the <em>machine.</em></h2>
-          <p>Writing is being provisioned. For now, here are the topics consuming background CPU.</p>
-        </div>
-        <div class="note-stack">
-          <article><span>001</span><h3>AI agents need guardrails before they need more power.</h3><p>Draft · Safety / Operations</p></article>
-          <article><span>002</span><h3>The best incident response tool is a calmer room.</h3><p>Queued · Leadership / SRE</p></article>
-          <article><span>003</span><h3>Make it boring: a field guide to operational elegance.</h3><p>Fragment · Reliability</p></article>
-        </div>
-      </section>
-
-      <section class="contact" id="contact">
-        <p class="eyebrow">04 / Open connection</p>
-        <h2>Have a noisy system?</h2>
-        <p>I like infrastructure, useful automation, strange little tools, and problems with too many moving parts.</p>
-        <div class="contact-links">
-          <a href="https://www.linkedin.com/in/chrisjohnsonlink/">Say hello on LinkedIn <span>↗</span></a>
-          <a href="https://github.com/ChrisJohnson89">Inspect the source <span>↗</span></a>
-        </div>
-      </section>
-    </main>
-
-    <footer>
-      <div class="fish-tank" aria-hidden="true">
-        <span class="fish fish-one">&gt;&lt;(((°&gt;</span>
-        <span class="fish fish-two">&lt;°)))&gt;&lt;</span>
-        <span class="bubble b1">°</span><span class="bubble b2">·</span><span class="bubble b3">°</span>
       </div>
-      <div class="footer-line mono">
-        <span>© <span id="year"></span> CHRISTOPHER JOHNSON</span>
-        <button id="panic" type="button">PANIC: MAKE THIS NORMAL</button>
-        <span>BUILD <span id="build-id">LOCAL</span> · UPTIME <span id="uptime">00:00</span></span>
-      </div>
-    </footer>
+    </section>
+  </div>
+</main>
 
-    <dialog class="command-dialog" aria-labelledby="command-title">
-      <form method="dialog">
-        <div class="command-input-wrap">
-          <span class="mono">$</span>
-          <input id="command-input" autocomplete="off" placeholder="Where should we go?" aria-labelledby="command-title" />
-          <button value="close" aria-label="Close command menu">ESC</button>
-        </div>
-        <h2 id="command-title" class="sr-only">Navigate this website</h2>
-        <div class="command-options">
-          <button value="work" data-target="work"><span>01</span> Running processes <kbd>W</kbd></button>
-          <button value="history" data-target="history"><span>02</span> Event history <kbd>H</kbd></button>
-          <button value="notes" data-target="notes"><span>03</span> Field notes <kbd>N</kbd></button>
-          <button value="contact" data-target="contact"><span>04</span> Open connection <kbd>C</kbd></button>
-        </div>
-        <p class="command-hint mono">TIP: PRESS / ANYWHERE · ESC TO ABORT</p>
-      </form>
-    </dialog>
-  </body>
+<footer id="contact">
+  <div class="wrap">
+    <p class="cta">Have a system that misbehaves?</p>
+    <nav aria-label="Contact links">
+      <a href="mailto:cjengineer89@gmail.com">Email</a>
+      <a href="https://github.com/ChrisJohnson89">GitHub</a>
+      <a href="https://www.linkedin.com/in/chrisjohnsonlink/">LinkedIn</a>
+      <a href="https://x.com/sweetunit">X</a>
+    </nav>
+  </div>
+  <div class="wrap colophon">
+    <p class="label">© 2026 Christopher Johnson · No trackers, no cookies, no build step</p>
+  </div>
+</footer>
+</body>
 </html>
